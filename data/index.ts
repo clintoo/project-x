@@ -107,35 +107,36 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Clinton brought our project to life with an incredible mix of creativity and precision. His insight and technical skills made a lasting impact on our product's success.",
+      "Clinton brought our project to life with an incredible mix of creativity, precision, and technical know-how. From our first meeting, he asked the right questions and quickly understood our goals. His thoughtful feedback and pixel-perfect execution helped us navigate tough choices with confidence. The final product surpassed our expectations and continues to deliver results. We truly couldn't have done it without him.",
     name: "Samantha Reyes",
     title: "Co-Founder of BrightLoop Digital",
   },
   {
     quote:
-      "Working with Clinton was a game-changer. He understood our goals instantly and delivered work that exceeded expectations, all while staying ahead of schedule.",
+      "Working with Clinton was nothing short of transformational for our team. He not only delivered exceptional work ahead of schedule, but also brought strategic insight that helped shape the direction of our product. Clinton is one of those rare collaborators who blends deep technical skill with an intuitive grasp of business and user needs. Every interaction with him elevated our project and our thinking.",
     name: "Jared Thompson",
     title: "Product Manager at NovaCore Labs",
   },
   {
     quote:
-      "Clinton’s ability to solve complex challenges with elegant solutions truly sets him apart. His collaborative approach made him an indispensable part of our team.",
+      "Clinton's ability to solve deeply complex technical challenges with elegant, maintainable solutions is truly rare. He consistently took initiative, identified edge cases we hadn't considered, and proposed smarter alternatives that saved us time and money. Beyond his technical strength, Clinton was an empathetic and steady teammate—always listening, always contributing. He became a core pillar of our development team.",
     name: "Linda Zhao",
     title: "Head of Engineering at Vertex Systems",
   },
   {
     quote:
-      "From the initial concept to final delivery, Clinton demonstrated unwavering professionalism and technical excellence. I can’t recommend him highly enough.",
+      "From day one, Clinton demonstrated a level of professionalism and technical mastery that's hard to find. He was deeply invested in the success of our product and treated every detail with care, from backend architecture to front-end interactions. His ability to communicate complex ideas clearly made him invaluable across teams, and his code quality and reliability gave us the confidence to scale rapidly.",
     name: "Ethan McAllister",
     title: "CTO of HorizonWave",
   },
   {
     quote:
-      "Clinton’s work speaks for itself—meticulous, thoughtful, and tailored perfectly to our needs. He added real value to our product from day one.",
+      "Clinton's contributions were thoughtful, refined, and delivered with exceptional attention to user experience. He joined our team during a critical redesign phase and instantly made an impact—improving our workflows, simplifying UI patterns, and offering constructive feedback that shaped the final direction. His deep empathy for users and ability to translate abstract goals into tangible results made him a standout collaborator.",
     name: "Priya Desai",
     title: "Lead UX Designer at EmberSpark Studio",
   },
 ];
+
 
 export const companies = [
   {
