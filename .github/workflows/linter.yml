@@ -27,3 +27,27 @@ jobs:
 
       - name: Run Prettier check
         run: npm run format:check
+
+  create-issue-on-failure:
+    needs: lint-and-format
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Create GitHub Issue on Failure
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.MY_SECRET }}
+          script: |
+            const issueTitle = `Lint & Format Check failed in workflow run #${{ github.run_number }}`;
+            const issueBody = `
+            The \`lint-and-format\` job failed in workflow run [#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}).
+
+            Please check the logs for details and address the errors.
+            `;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: issueTitle,
+              body: issueBody,
+              labels: ['automated issue', 'ci-failure']
+            });
