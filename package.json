@@ -9,7 +9,7 @@
     "lint": "next lint",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "deploy": "vercel --prod"    
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
