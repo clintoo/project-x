@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Let's make something magical — one idea, one coffee, and one conversation at a time.",
+    title:
+      "Let's make something magical — one idea, one coffee, and one conversation at a time.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -104,7 +105,6 @@ export const projects = [
   },
 ];
 
-
 export const testimonials = [
   {
     quote:
@@ -137,7 +137,6 @@ export const testimonials = [
     title: "Lead UX Designer at EmberSpark Studio",
   },
 ];
-
 
 export const companies = [
   {
