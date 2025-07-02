@@ -1,0 +1,19 @@
+name: Deploy to Netlify via Shared Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  deploy:
+    uses: clintoo/ci-pipelines/.github/workflows/deploy.yml@main
+    with:
+      environment: ${{ github.ref == 'refs/heads/main' && 'production' || 'development' }}
+      url: ${{ github.ref == 'refs/heads/main' && 'https://xtremeart.netlify.app' || 'https://formyeyes.netlify.app' }}
+      production: ${{ github.ref == 'refs/heads/main' }}
+    secrets:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      PROD_ID: ${{ secrets.PROD_ID }}
+      STAGING_ID: ${{ secrets.STAGING_ID }}
