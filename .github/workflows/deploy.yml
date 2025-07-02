@@ -31,7 +31,7 @@ jobs:
             const title = '🚨 Deployment Failed';
             const body = `The deployment job failed for branch: \`${{ github.ref }}\`.
 
-            Please check the workflow run for details: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            Please check the workflow runs and logs for details: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
 
             cc @${{ github.actor }}`;
             await github.rest.issues.create({
