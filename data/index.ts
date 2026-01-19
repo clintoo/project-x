@@ -174,7 +174,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Engineer - Zynamis",
     desc: "Assisted in the development of a web-app platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -206,13 +206,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/kc-clintone",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/@kc_clintone",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/clinton-otieno",
   },
 ];
