@@ -60,7 +60,7 @@ const Hero = () => {
             Hi, I&apos;m Clinton — I turn complex ideas into reliable, elegant digital products
           </p>
 
-          <a href="#about">
+          <a href="#contact">
             <MagicButton
               title="Contact me"
               icon={<FaLocationArrow />}
