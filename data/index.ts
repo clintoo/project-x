@@ -108,33 +108,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Clinton brought our project to life with an incredible mix of creativity, precision, and technical know-how. From our first meeting, he asked the right questions and quickly understood our goals. His thoughtful feedback and pixel-perfect execution helped us navigate tough choices with confidence. The final product surpassed our expectations and continues to deliver results. We truly couldn't have done it without him.",
-    name: "Samantha Reyes",
-    title: "Co-Founder of BrightLoop Digital",
+      "Clinton is a phenomenal colleague whose technical expertise is matched only by his collaborative spirit. During our time working together, he consistently delivered high-quality code while also fostering a positive team environment. His ability to break down complex problems and communicate solutions clearly made him an invaluable asset to our projects.",
+    name: "Amon Ochuka",
+    title: "Fullstack Developer at zone01Kisumu",
+    img: "/avatar.svg",
   },
   {
     quote:
-      "Working with Clinton was nothing short of transformational for our team. He not only delivered exceptional work ahead of schedule, but also brought strategic insight that helped shape the direction of our product. Clinton is one of those rare collaborators who blends deep technical skill with an intuitive grasp of business and user needs. Every interaction with him elevated our project and our thinking.",
-    name: "Jared Thompson",
-    title: "Product Manager at NovaCore Labs",
+      "Working with Clinton was an absolute pleasure. His dedication to writing clean, efficient code and his proactive approach to problem-solving significantly elevated our development process. He has a keen eye for detail and a deep understanding of best practices, which he applies thoughtfully to every project. Beyond his technical skills, Clinton's positive attitude and willingness to support his teammates made him a standout member of our team.",
+    name: "Japheth Omanyu",
+    title: "Backend Engineer at Zynamis",
+    img: "/avatar.svg",
   },
   {
     quote:
-      "Clinton's ability to solve deeply complex technical challenges with elegant, maintainable solutions is truly rare. He consistently took initiative, identified edge cases we hadn't considered, and proposed smarter alternatives that saved us time and money. Beyond his technical strength, Clinton was an empathetic and steady teammate—always listening, always contributing. He became a core pillar of our development team.",
-    name: "Linda Zhao",
-    title: "Head of Engineering at Vertex Systems",
+      "Clinton's impact on our development team was profound. His expertise in frontend technologies and his commitment to excellence were evident in every project he undertook. He consistently went above and beyond to ensure that our applications were not only functional but also user-friendly and visually appealing. Clinton's collaborative nature and eagerness to share knowledge made him a respected and valued team member.",
+    name: "Brian Kagiri",
+    title: "Program manager at Zynamis",
+    img: "/avatar.svg",
   },
   {
     quote:
-      "From day one, Clinton demonstrated a level of professionalism and technical mastery that's hard to find. He was deeply invested in the success of our product and treated every detail with care, from backend architecture to front-end interactions. His ability to communicate complex ideas clearly made him invaluable across teams, and his code quality and reliability gave us the confidence to scale rapidly.",
-    name: "Ethan McAllister",
-    title: "CTO of HorizonWave",
+      "I'm happy with the work Clinton did on our project. He was professional, communicative, and delivered high-quality results on time. His expertise in web development helped bring our vision to life, and I would gladly work with him again in the future.",
+    name: "Florence Ndinda",
+    title: "Happy client",
+    img: "/avatar.svg",
   },
   {
     quote:
-      "Clinton's contributions were thoughtful, refined, and delivered with exceptional attention to user experience. He joined our team during a critical redesign phase and instantly made an impact—improving our workflows, simplifying UI patterns, and offering constructive feedback that shaped the final direction. His deep empathy for users and ability to translate abstract goals into tangible results made him a standout collaborator.",
-    name: "Priya Desai",
-    title: "Lead UX Designer at EmberSpark Studio",
+      "Clinton's insightful approach to UI/UX design and development significantly enhanced our application's user experience. His ability to blend creativity with technical proficiency resulted in a product that was both visually stunning and highly functional.",
+    name: "Mitchell Njeri",
+    title: "UI/UX Engineer at Elle-Designs",
+    img: "/avatar.svg",
   },
 ];
 
