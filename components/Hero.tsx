@@ -57,12 +57,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Clinton, a Fullstack Software Developer.
+            Hi, I&apos;m Clinton — I turn complex ideas into reliable, elegant digital products
           </p>
 
           <a href="#about">
             <MagicButton
-              title="See my work"
+              title="Contact me"
               icon={<FaLocationArrow />}
               position="right"
             />
