@@ -175,30 +175,30 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer - Zynamis",
-    desc: "Assisted in the development of a web-app platform using React.js, enhancing interactivity.",
+    desc: "Developed and maintained React-based web apps, improving user experience and interface responsiveness.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - Emobilis",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web Developer - Emobilis",
+    desc: "Designed and developed web apps using Django, focusing on robust and user-friendly interfaces.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 3,
-    title: "Freelance Dev Project",
-    desc: "With a team, we successfully built and shiped a fully functional mobile application",
+    title: "Fullstack engineer - Zone01Kisumu",
+    desc: "Engaged in intensive, project-driven training on full-stack development, problem-solving, and collaborative software engineering.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Lead a team of developers/mentors in delivering quality code and perfoming code reviews",
+    title: "Volunteer Mentor",
+    desc: "I constantly contribute to the developer community by mentoring learners, reviewing code, and fostering a growth-focused environment.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
 
